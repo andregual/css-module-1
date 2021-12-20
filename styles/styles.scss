@@ -1,0 +1,63 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martel:wght@700;900&display=swap");
+
+// Global
+@import "./variables";
+@import "./resets";
+@import "./font-sizes";
+@import "./media-queries";
+@import "./colors";
+
+// Components
+@import "./components/buttons";
+@import "./components/card";
+@import "./components/nav";
+@import "./components/footer";
+
+// Sections
+@import "./sections/contact";
+@import "./sections/consultation";
+@import "./sections/newsletter";
+@import "./sections/advice";
+@import "./sections/about";
+@import "./sections/legal";
+@import "./sections/client";
+@import "./sections/brands";
+
+.main-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+}
+
+.main-container__header {
+  background: url("../assets/bg-image-desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+}
+
+.icon-sm {
+  width: 44px;
+  height: 44px;
+}
+
+.open-secondary-text {
+  font-family: $open-sans-font;
+  color: $second-text-color;
+}
+
+.martel-secondary-text {
+  font-family: $martel-font;
+  color: $second-text-color;
+}

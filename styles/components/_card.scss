@@ -1,0 +1,43 @@
+@import "../media-queries";
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+
+  @include screen-lg {
+    flex-direction: row;
+  }
+
+  gap: 30px;
+}
+
+.card {
+  background-color: $light-background-color;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-white {
+  background-color: $light-background-color;
+}
+
+.card-blue {
+  background-color: $secondary-color-4;
+  color: $light-text-color;
+}
+
+.card-dark-blue {
+  background-color: $text-color;
+  color: $light-text-color;
+}
+
+.card-horizontal {
+  padding: 35px 40px;
+}
+
+.card-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px 40px 30px 40px;
+}

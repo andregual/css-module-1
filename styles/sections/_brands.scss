@@ -1,0 +1,19 @@
+@import "../media-queries";
+
+.brands {
+  background: #fafafa;
+  padding-bottom: 0;
+
+  @include laptop {
+    padding-bottom: 5rem;
+  }
+}
+
+.brands__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  padding: 2rem;
+  place-items: center;
+  justify-content: center;
+  gap: 2rem;
+}

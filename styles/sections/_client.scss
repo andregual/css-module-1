@@ -1,0 +1,11 @@
+.client__card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 230px);
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.client__header {
+  padding: 2rem;
+}

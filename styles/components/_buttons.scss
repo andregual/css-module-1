@@ -1,0 +1,71 @@
+.btn {
+  font-family: $open-sans-font;
+  font-size: $fnt-sm;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-round {
+  @extend .btn;
+  padding: 10px 36px;
+  border-radius: 37px;
+}
+
+.btn-brown {
+  background-color: $secondary-color-2;
+  border: none;
+  color: white;
+}
+
+.btn-brown--outline {
+  background-color: transparent;
+  border: 1px solid $secondary-color-2;
+  color: $secondary-color-2;
+}
+
+.btn-legal {
+  width: 182px;
+  height: 48px;
+}
+
+.btn-legal--outline {
+  width: 155px;
+  height: 48px;
+}
+
+.subscribe-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 22.5px;
+  background-color: $primary-color;
+  color: $light-text-color;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #e5e5e5;
+  font-family: $montserrat-font;
+  font-size: $fnt-sm;
+  cursor: pointer;
+}
+
+.submit-btn {
+  @extend .btn;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  width: 154px;
+  height: 44px;
+  font-weight: 700;
+}
+
+.contact-button {
+  @extend .btn;
+  background-color: $secondary-color-2;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: none;
+}

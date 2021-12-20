@@ -1,0 +1,41 @@
+@import '../media-queries';
+
+.about__header {
+  padding: 2rem;
+}
+
+.about__video-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 600px));
+  gap: 5rem;
+  padding: 2rem;
+  place-items: center;
+  justify-content: center;
+}
+
+.trusted-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.trusted-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.trusted-grid {
+  display: flex;
+  gap: 20px;
+
+  h5 {
+    color: $text-color;
+  }
+
+  p {
+    font-family: $open-sans-font;
+    color: $second-text-color;
+  }
+}
