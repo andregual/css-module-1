@@ -21,7 +21,7 @@ Log fb to the console to see the output.
 // ADD CODE HERE
 const fb = [];
 
-for (i = 1; i < 17; i++) {
+for (let i = 1; i < 17; i++) {
   if (i % 3 === 0 && i % 5 === 0) {
     fb.push('fizzbuzz');
   } else if (i % 3 === 0) {
@@ -55,7 +55,7 @@ const checkObj = {
 
 let found = 0;
 
-for (property in checkObj) {
+for (let property in checkObj) {
   if (property === 'foundNum') {
     found = 1;
   }
@@ -77,7 +77,7 @@ const sumMe = {
 let total = 0;
 // ADD CODE HERE
 
-for (element in sumMe) {
+for (let element in sumMe) {
   if (typeof sumMe[element] === 'number') {
     total += sumMe[element];
   }
@@ -184,7 +184,7 @@ function arrayBuilder(obj) {
   for (let key in obj) {
     const value = obj[key];
 
-    for (i = 0; i < value; i++) {
+    for (let i = 0; i < value; i++) {
       array.push(key);
     }
   }
