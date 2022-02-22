@@ -56,10 +56,10 @@ function ajaxSimulate(id, callback) {
 
 function storeData(inputData) {
   dataReceived = inputData;
+  // console.log(dataReceived);
 }
 
 ajaxSimulate(1, storeData);
-console.log(dataReceived);
 
 /* 
 3.
